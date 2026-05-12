@@ -16,7 +16,7 @@ export default defineConfig(({mode}) => {
       },
     },
     preview: {
-      allowedHosts: ['at-2-production.up.railway.app/']
+      allowedHosts: ['at-2-production.up.railway.app']
     }
   };
 });
