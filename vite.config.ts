@@ -15,5 +15,8 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    preview: {
+      allowedHosts: ['at-2-production.up.railway.app/']
+    }
   };
 });
